@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['@nuxtjs/color-mode', '@element-plus/nuxt'],
+  modules: ['@nuxtjs/color-mode', '@element-plus/nuxt', '@nuxtjs/supabase'],
   colorMode: {
     classSuffix: '',
   },
