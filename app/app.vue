@@ -4,6 +4,10 @@ import dayjs from 'dayjs'
 import 'dayjs/locale/zh-cn'
 
 dayjs.locale('zh-cn')
+
+useHead({
+  title: 'AI Studio',
+})
 </script>
 
 <template>
